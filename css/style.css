@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Phetsarath_OT'; 
+    src: url('phetsarath_ot.eot'); 
+    src: url('phetsarath_ot.eot?#iefix') format('embedded-opentype'), 
+    url('phetsarath_ot.woff2') format('woff2'), 
+    url('phetsarath_ot.woff') format('woff'), 
+    url('phetsarath_ot.ttf') format('truetype'),
+    url('phetsarath_ot.svg#Phetsarath_OT') format('svg'); 
+    font-weight: normal;
+    font-style: normal; 
+    }
+body,html {
+    height: 100%;
+    font-family: Phetsarath_OT;
+}
+.bg-alpha{
+    background: rgba(0, 0, 0, 0.5);
+}
+/* Section Carousel */
+
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-inner .active {
+    height: 100%;
+}
+
+.carousel-img {
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    top: 40%;
+}
+
+.backscreen {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
